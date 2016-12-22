@@ -1,0 +1,18 @@
+/*global myproject, $*/
+
+
+window.myproject = {
+  Models: {},
+  Collections: {},
+  Views: {},
+  Routers: {},
+  init: function () {
+    'use strict';
+    console.log('Hello from Backbone!');
+  }
+};
+
+$(document).ready(function () {
+  'use strict';
+  myproject.init();
+});
